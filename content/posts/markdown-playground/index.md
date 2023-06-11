@@ -96,24 +96,24 @@ This is a paragraph.
 @import 'compass/reset';
 
 // variables
-$colorGreen: #008000;
-$colorGreenDark: darken($colorGreen, 10);
+$coloraccentblue: #0047AB;
+$coloraccentblueDark: darken($coloraccentblue, 10);
 
 @mixin container {
   max-width: 980px;
 }
 
 // mixins with parameters
-@mixin button($color: green) {
-  @if ($color == green) {
-    background-color: #008000;
-  } @else if ($color == red) {
-    background-color: #b22222;
+@mixin button($color: accent-blue) {
+  @if ($color == accent-blue) {
+    background-color: #CD7F32;
+  } @else if ($color == silver) {
+    background-color: #C0C0C0;
   }
 }
 
 button {
-  @include button(red);
+  @include button(silver);
 }
 
 div,
@@ -151,9 +151,9 @@ ul {
 }
 
 a {
-  color: $colorGreen;
+  color: $coloraccentblue;
   &:hover {
-    color: $colorGreenDark;
+    color: $coloraccentblueDark;
   }
   &:visited {
     color: #c458cb;

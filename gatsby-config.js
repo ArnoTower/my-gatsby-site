@@ -1,15 +1,18 @@
+require('events').EventEmitter.defaultMaxListeners = 30;
+
 const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
     title: 'Arnaud Hightower',
     description:
-      'Arnaud Hightower is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Arnaud Hightower is a software engineer who likes building fun digital experiences.',
     siteUrl: 'https://metaversedeo.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@arnaudhightower',
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
@@ -22,8 +25,8 @@ module.exports = {
         name: 'Arnaud Hightower',
         short_name: 'Arnaud Hightower',
         start_url: '/',
-        background_color: config.colors.darkNavy,
-        theme_color: config.colors.navy,
+        background_color: config.colors.darkmidnightblue,
+        theme_color: config.colors.midnightblue,
         display: 'minimal-ui',
         icon: 'src/images/logo.png',
       },
@@ -76,6 +79,7 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
+              tracedSVG: { color: config.colors.accentblue},
             },
           },
           {
