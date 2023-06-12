@@ -7,7 +7,7 @@ module.exports = {
     title: 'Arnaud Hightower',
     description:
       'Arnaud Hightower is a software engineer who likes building fun digital experiences.',
-    siteUrl: 'https://metaversedeo.com', // No trailing slash allowed!
+    siteUrl: 'https://arnotower.github.io/my-gatsby-site/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@arnaudhightower',
   },
