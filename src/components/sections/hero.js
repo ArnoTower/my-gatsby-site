@@ -66,10 +66,10 @@ const Hero = () => {
     <>
       <p>
         I became a software engineer because I want to create exceptional digital experiences. 
-        Currently, I’m focused on building accessible, human-centered products
+        Currently, I’m focused on building a web3 MOBA game 
         at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        <a href="https://ambrus.studio/" target="_blank" rel="noreferrer">
+          Ambrus Studio
         </a>
         .
       </p>
@@ -78,10 +78,10 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="https://www.youtube.com/channel/UCd9dPom229x3WrP3_M3pHgQ"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      Check out my Youtube Channel!
     </a>
   );
 

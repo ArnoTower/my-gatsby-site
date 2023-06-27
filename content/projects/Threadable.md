@@ -1,13 +1,14 @@
 ---
 date: '2022-09-08'
-title: 'Threadable'
+title: 'Coming soon'
 github: ''
-external: 'https://www.threadablebooks.com/'
-ios: 'https://apps.apple.com/us/app/threadable/id1550995547'
+external: ''
 tech:
-  - React Native
-  - Ruby on Rails
-  - Firebase
-company: 'Upstatement'
+  - 
+  - 
+  - 
+company: ''
 showInProjects: false
 ---
+
+

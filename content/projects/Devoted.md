@@ -1,14 +1,14 @@
 ---
 date: '2018-12-01'
-title: 'Devoted Health'
+title: 'Coming soon'
 github: ''
-external: 'https://www.devoted.com/'
+external: ''
 tech:
-  - Gatsby
-  - TypeScript
-  - Algolia
-company: 'Upstatement'
+  - 
+  - 
+  - 
+company: ''
 showInProjects: false
 ---
 
-A site for a revolutionary healthcare company, including an Algolia instant search integration
+

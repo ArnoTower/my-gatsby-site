@@ -1,12 +1,14 @@
 ---
 date: '2019-11-25'
-title: 'Upstatement.com'
+title: 'Coming soon'
 github: ''
-external: 'https://www.upstatement.com/'
+external: ''
 tech:
-  - Nuxt
-  - Vue
-  - Prismic
-company: 'Upstatement'
+  - 
+  - 
+  - 
+company: ''
 showInProjects: false
 ---
+
+

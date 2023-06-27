@@ -1,13 +1,13 @@
 ---
 date: '2022-01-20'
-title: 'Everytown Gun Law Rankings'
+title: 'Coming soon'
 github: ''
-external: 'https://everytownresearch.org/rankings/'
+external: ''
 tech:
-  - WordPress
-  - Timber
-  - PHP
-  - Airtable API
-company: 'Upstatement'
+  - 
+  - 
+  - 
+company: ''
 showInProjects: false
 ---
+
